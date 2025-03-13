@@ -26,9 +26,9 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: 'JavaScript Mastery',
+          to_name: 'your Portfolio Website',
           from_email: form.email,
-          to_email: 'sujata@jsmastery.pro',
+          to_email: 'chandgir.vaibhav@outlook.com',
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY,
@@ -71,10 +71,10 @@ const Contact = () => {
       <div className="relative min-h-screen flex items-center justify-center flex-col">
         <img src="/assets/terminal.png" alt="terminal-bg" className="absolute inset-0 min-h-screen" />
 
-        <div className="contact-container">
-          <h3 className="head-text">Let's talk</h3>
+        <div className="contact-container ">
+          <h3 className="head-text mx-6 flex items-center justify-center p-9">Lets talk</h3>
           <p className="text-lg text-white-600 mt-3">
-            Whether you’re looking to build a new website, improve your existing platform, or bring a unique project to
+            Whether you’re looking to build something, improve your existing platform, or bring a unique project to
             life, I’m here to help.
           </p>
 

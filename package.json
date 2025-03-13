@@ -1,13 +1,15 @@
 {
-  "name": "threejscc-portfolio",
-  "private": true,
+  "name": "vaibhav-portfolio",
+  "homepage": "https://vaibhavsadgir50.github.io/portfolio/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run dev",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
@@ -15,6 +17,7 @@
     "@react-three/drei": "^9.111.3",
     "@react-three/fiber": "^8.17.6",
     "@types/three": "^0.168.0",
+    "gh-pages": "^6.3.0",
     "gsap": "^3.12.5",
     "leva": "^0.9.35",
     "maath": "^0.10.8",
