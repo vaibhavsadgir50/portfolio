@@ -1,6 +1,6 @@
 {
   "name": "vaibhav-portfolio",
-  "homepage": "https://vaibhavsadgir50.github.io/portfolio/",
+  "homepage": "https://vaibhavsadgir50.github.io/vaibhav-portfolio/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -8,8 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run dev",
-    "deploy": "gh-pages -d dev"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
